@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8805AC3028B92BDE000FE3B9 /* SWitchStateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805AC2F28B92BDE000FE3B9 /* SWitchStateDelegate.swift */; };
+		8805AC3228B93CA5000FE3B9 /* ToggleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805AC3128B93CA5000FE3B9 /* ToggleProtocol.swift */; };
+		8805AC3428BFDB11000FE3B9 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805AC3328BFDB11000FE3B9 /* ObservableObject.swift */; };
+		8805AC3628C16896000FE3B9 /* BallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805AC3528C16896000FE3B9 /* BallViewModel.swift */; };
+		8805AC3B28C170DD000FE3B9 /* BallPositionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805AC3A28C170DD000FE3B9 /* BallPositionDelegate.swift */; };
+		8805AC3D28C17DF2000FE3B9 /* BallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805AC3C28C17DF2000FE3B9 /* BallViewController.swift */; };
+		8805AC3F28C1804D000FE3B9 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805AC3E28C1804D000FE3B9 /* UIImage.swift */; };
 		88A8524E28B69F4000234647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A8524D28B69F4000234647 /* AppDelegate.swift */; };
 		88A8525028B69F4000234647 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A8524F28B69F4000234647 /* SceneDelegate.swift */; };
 		88A8525228B69F4000234647 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A8525128B69F4000234647 /* ViewController.swift */; };
 		88A8525528B69F4000234647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A8525328B69F4000234647 /* Main.storyboard */; };
 		88A8525728B69F4300234647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A8525628B69F4300234647 /* Assets.xcassets */; };
 		88A8525A28B69F4300234647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A8525828B69F4300234647 /* LaunchScreen.storyboard */; };
+		88A8526228B6A58D00234647 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A8526128B6A58C00234647 /* UIButtonExt.swift */; };
+		88CBB7EC28B6BA2700185297 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CBB7EB28B6BA2700185297 /* Helpers.swift */; };
+		88CBB7F028B7E8EF00185297 /* ColorDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CBB7EF28B7E8EF00185297 /* ColorDisplayViewController.swift */; };
+		88CBB7F228B7ED8000185297 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CBB7F128B7ED8000185297 /* ColorPickerViewController.swift */; };
+		88CBB7F428B7F17E00185297 /* ColorTransferDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CBB7F328B7F17E00185297 /* ColorTransferDelegate.swift */; };
+		88CBB7F628B9222F00185297 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CBB7F528B9222F00185297 /* SwitchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8805AC2F28B92BDE000FE3B9 /* SWitchStateDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWitchStateDelegate.swift; sourceTree = "<group>"; };
+		8805AC3128B93CA5000FE3B9 /* ToggleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleProtocol.swift; sourceTree = "<group>"; };
+		8805AC3328BFDB11000FE3B9 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		8805AC3528C16896000FE3B9 /* BallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallViewModel.swift; sourceTree = "<group>"; };
+		8805AC3A28C170DD000FE3B9 /* BallPositionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallPositionDelegate.swift; sourceTree = "<group>"; };
+		8805AC3C28C17DF2000FE3B9 /* BallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallViewController.swift; sourceTree = "<group>"; };
+		8805AC3E28C1804D000FE3B9 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		88A8524A28B69F4000234647 /* fb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A8524D28B69F4000234647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88A8524F28B69F4000234647 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +44,12 @@
 		88A8525628B69F4300234647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88A8525928B69F4300234647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88A8525B28B69F4300234647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A8526128B6A58C00234647 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		88CBB7EB28B6BA2700185297 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		88CBB7EF28B7E8EF00185297 /* ColorDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDisplayViewController.swift; sourceTree = "<group>"; };
+		88CBB7F128B7ED8000185297 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		88CBB7F328B7F17E00185297 /* ColorTransferDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTransferDelegate.swift; sourceTree = "<group>"; };
+		88CBB7F528B9222F00185297 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8805AC3928C168C2000FE3B9 /* BallView */ = {
+			isa = PBXGroup;
+			children = (
+				8805AC3528C16896000FE3B9 /* BallViewModel.swift */,
+				8805AC3C28C17DF2000FE3B9 /* BallViewController.swift */,
+			);
+			path = BallView;
+			sourceTree = "<group>";
+		};
 		88A8524128B69F4000234647 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +91,59 @@
 		88A8524C28B69F4000234647 /* fb */ = {
 			isa = PBXGroup;
 			children = (
+				88D6967928C79FED00AE30DA /* Protocols */,
+				88D6967828C79FAE00AE30DA /* Extensions */,
+				88D6967728C79F9400AE30DA /* Helpers */,
 				88A8524D28B69F4000234647 /* AppDelegate.swift */,
 				88A8524F28B69F4000234647 /* SceneDelegate.swift */,
-				88A8525128B69F4000234647 /* ViewController.swift */,
-				88A8525328B69F4000234647 /* Main.storyboard */,
+				88D6967628C79F6D00AE30DA /* Views */,
+				8805AC3328BFDB11000FE3B9 /* ObservableObject.swift */,
 				88A8525628B69F4300234647 /* Assets.xcassets */,
 				88A8525828B69F4300234647 /* LaunchScreen.storyboard */,
 				88A8525B28B69F4300234647 /* Info.plist */,
 			);
 			path = fb;
+			sourceTree = "<group>";
+		};
+		88D6967628C79F6D00AE30DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88A8525128B69F4000234647 /* ViewController.swift */,
+				8805AC3928C168C2000FE3B9 /* BallView */,
+				88CBB7F128B7ED8000185297 /* ColorPickerViewController.swift */,
+				88CBB7EF28B7E8EF00185297 /* ColorDisplayViewController.swift */,
+				88CBB7F528B9222F00185297 /* SwitchViewController.swift */,
+				88A8525328B69F4000234647 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		88D6967728C79F9400AE30DA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				88CBB7EB28B6BA2700185297 /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		88D6967828C79FAE00AE30DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				88A8526128B6A58C00234647 /* UIButtonExt.swift */,
+				8805AC3E28C1804D000FE3B9 /* UIImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		88D6967928C79FED00AE30DA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				88CBB7F328B7F17E00185297 /* ColorTransferDelegate.swift */,
+				8805AC3A28C170DD000FE3B9 /* BallPositionDelegate.swift */,
+				8805AC2F28B92BDE000FE3B9 /* SWitchStateDelegate.swift */,
+				8805AC3128B93CA5000FE3B9 /* ToggleProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +219,20 @@
 			files = (
 				88A8525228B69F4000234647 /* ViewController.swift in Sources */,
 				88A8524E28B69F4000234647 /* AppDelegate.swift in Sources */,
+				8805AC3628C16896000FE3B9 /* BallViewModel.swift in Sources */,
+				8805AC3B28C170DD000FE3B9 /* BallPositionDelegate.swift in Sources */,
+				88CBB7F028B7E8EF00185297 /* ColorDisplayViewController.swift in Sources */,
+				88CBB7F628B9222F00185297 /* SwitchViewController.swift in Sources */,
+				88CBB7F228B7ED8000185297 /* ColorPickerViewController.swift in Sources */,
+				8805AC3428BFDB11000FE3B9 /* ObservableObject.swift in Sources */,
 				88A8525028B69F4000234647 /* SceneDelegate.swift in Sources */,
+				8805AC3F28C1804D000FE3B9 /* UIImage.swift in Sources */,
+				8805AC3D28C17DF2000FE3B9 /* BallViewController.swift in Sources */,
+				8805AC3228B93CA5000FE3B9 /* ToggleProtocol.swift in Sources */,
+				88CBB7F428B7F17E00185297 /* ColorTransferDelegate.swift in Sources */,
+				88CBB7EC28B6BA2700185297 /* Helpers.swift in Sources */,
+				8805AC3028B92BDE000FE3B9 /* SWitchStateDelegate.swift in Sources */,
+				88A8526228B6A58D00234647 /* UIButtonExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
